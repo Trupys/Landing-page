@@ -1,31 +1,188 @@
 html, body {
-    height: 100%;
     margin: 0;
+    font-family: 'ubuntu';
 }
 
-body {
-    display: flex;
-    flex-direction: column;
+/* DELETE LATER */
+.img {
+    min-height: 200px;
+    min-width: 466.72px;
+    background-color: grey;
+    margin-left: 15px;
+    display: grid;
+    place-items: center;
+    color: white;
 }
 
-.firstP {
-    flex: 1;
+.img2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 5px solid blue;
+}
+
+.imagesi {
+    display: grid;
+    place-items: center;
+    gap: 20px;
+}
+/* DELETE LATER */
+
+.first, .second, .third, .fourth {
+    height: 30vw;
+    width: auto;
+}
+
+.header, .footer {
+    height: 5vw;
+    width: auto;
+}
+
+.header, .first, .footer {
     background-color: #1F2937;
 }
 
-.secondP {
-    flex: 1;
-}
-
-.thirdP {
-    flex: 1;
+.third {
     background-color: #E5E7EB;
 }
 
-.fourthP {
-    flex: 1;
+.text1 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text2, .text2 > ul > li > a {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flexy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.flexy1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 0;
+}
+
+.boxed-text {
+    max-width: 600px;
+}
+
+button {
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    height: 35px;
+    width: 90px;
+    border: none;
+}
+
+button:hover {
+    background-color: #3882F6;
+    color: white;
+}
+
+.second.flexy {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.images.flexy {
+    text-align: center;
+}
+
+.header2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.quote {
+    max-width: 600px;
+}
+
+.third.flexy {
+    justify-content: center;
+    gap: 0px;
+}
+
+.p1 {
+    font-size: 28px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.p2 {
+    text-align: right;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.blueBox {
+    background-color: #3882F6;
+    width: 800px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px 0 40px;
+}
+
+.fourth.flexy {
+    justify-content: center;
+}
+
+.blueBox > div > h2, p{
+    margin: 0;
+    color: white;
+}
+
+.other {
+    background-color: inherit;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.other:hover {
+    background-color: white;
+    color: #3882F6;
+    border-color: #3882F6;
+}
+
+.wtfmargin {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .footer {
-    flex: 1;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    color: lightgrey;
+    word-spacing: 5px;
 }
